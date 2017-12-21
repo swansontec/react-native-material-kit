@@ -16,6 +16,7 @@ android {
 
     defaultConfig {
         minSdkVersion 16
+        multiDexEnabled true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
